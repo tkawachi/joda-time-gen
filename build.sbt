@@ -7,7 +7,7 @@ scalaVersion := "2.11.7"
 crossScalaVersions := Seq("2.10.5", "2.11.7")
 
 libraryDependencies ++= Seq(
-  "org.scalacheck" %% "scalacheck" % "1.12.4",
+  "org.scalacheck" %% "scalacheck" % "1.13.0",
   "joda-time" % "joda-time" % "2.8.1",
   "org.joda" % "joda-convert" % "1.7"
 )
