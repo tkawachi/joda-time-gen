@@ -1,6 +1,10 @@
 import sbtrelease._
 import ReleaseStateTransformations._
 
+useGpg := true
+
+usePgpKeyHex("DDB27CB98A104BAA")
+
 releaseProcess := Seq[ReleaseStep](
   checkSnapshotDependencies,
   inquireVersions,
